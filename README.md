@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Erica Toledo | Serviços Remotos</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f6f6f6; color: #333; }
+    header { background-color: #1e1e2f; color: white; padding: 60px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { font-size: 18px; margin-top: 10px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; background: white; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    h2 { border-bottom: 2px solid #ddd; padding-bottom: 10px; color: #1e1e2f; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    .photo { text-align: center; margin-bottom: 20px; }
+    .photo img { max-width: 200px; border-radius: 100px; border: 4px solid #1e1e2f; }
+    .contact-form { display: flex; flex-direction: column; gap: 10px; }
+    .contact-form input, .contact-form textarea { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 6px; }
+    .contact-form button { background-color: #1e1e2f; color: white; border: none; padding: 12px; border-radius: 6px; cursor: pointer; }
+    .contact-form button:hover { background-color: #33334d; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Erica Toledo</h1>
+    <p>Profissional Administrativa & Especialista em RH</p>
+  </header>  <section class="photo">
+    <img src="sua-foto.jpg" alt="Foto de Erica Toledo">
+  </section>  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou uma profissional com sólida experiência em administração, gestão de equipes, coordenação de rotinas organizacionais e Recursos Humanos. Atuo com foco em serviços remotos de apoio administrativo, consultoria de RH, assistência virtual e apoio educacional. Meu objetivo é oferecer soluções eficazes para empresas e profissionais com organização, clareza e ética.</p>
+  </section>  <section>
+    <h2>Serviços</h2>
+    <ul>
+      <li><strong>Assistência Virtual:</strong> organização de agendas, e-mails, documentos e atendimento ao cliente.</li>
+      <li><strong>Consultoria em RH:</strong> recrutamento, estruturação de cargos, currículos e treinamentos.</li>
+      <li><strong>Apoio Educacional:</strong> tutoria para técnicas de aprendizagem e organização acadêmica.</li>
+      <li><strong>Comunicação e Conteúdo:</strong> vídeos, oratória e criação de conteúdo digital.</li>
+    </ul>
+  </section>  <section>
+    <h2>Certificações</h2>
+    <ul>
+      <li>Gestão em Recursos Humanos</li>
+      <li>Informática para Universitários</li>
+      <li>Inglês Instrumental</li>
+      <li>Técnicas de Aprendizagem</li>
+      <li>Workshop Bella Hub (oratória e expressão)</li>
+    </ul>
+  </section>  <section>
+    <h2>Contato</h2>
+    <form class="contact-form" action="mailto:ericatoledo2004@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section></body>
+</html>
